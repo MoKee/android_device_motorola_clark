@@ -70,11 +70,11 @@ TARGET_USES_64_BIT_BINDER := true
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
+# MKHW
+BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS := \
-    $(DEVICE_PATH)/cmhw \
-    hardware/cyanogen/cmhw
+    $(DEVICE_PATH)/mkhw \
+    hardware/mokee/mkhw
 
 # Font
 EXTENDED_FONT_FOOTPRINT := true
