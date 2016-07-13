@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_motorola_clark",
+    "target_path": "vendor/motorola/clark"
+  },
+  {
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
